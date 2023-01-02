@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.gwtproject.editor</groupId>
+        <groupId>walkingkooka</groupId>
         <artifactId>gwt-editor-parent</artifactId>
-        <version>dev</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>gwt-editor-gwt2-tests</artifactId>
     <version>${revision}</version>
@@ -37,13 +37,13 @@
         </dependency>
 
         <dependency>
-            <groupId>org.gwtproject.editor</groupId>
+            <groupId>walkingkooka</groupId>
             <artifactId>gwt-editor</artifactId>
             <version>${revision}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.gwtproject.editor</groupId>
+            <groupId>walkingkooka</groupId>
             <artifactId>gwt-editor-processor</artifactId>
             <version>${revision}</version>
             <scope>test</scope>
