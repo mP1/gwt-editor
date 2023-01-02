@@ -90,9 +90,11 @@
 
               <skip>false</skip>
               <tests>
-<!--                <param>org.gwtproject.editor.client.DirtyEditorTest</param>-->
-<!--                <param>org.gwtproject.editor.client.EditorErrorTest</param>-->
+                <param>org.gwtproject.editor.client.DirtyEditorTest</param>
+                <!--
+                Disabled because of failures
                 <param>org.gwtproject.editor.client.SimpleBeanEditorTest</param>
+                -->
                 <param>org.gwtproject.editor.client.impl.DelegateMapTest</param>
                 <param>org.gwtproject.editor.client.adapters.ListEditorWrapperTest</param>
               </tests>
